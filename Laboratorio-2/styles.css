@@ -6,13 +6,13 @@ body {
 }
 main {
     display: flex;
-    background-color: rgb(188, 102, 188);
+    background-color: #bc66bc;
     height: 100vh;
     flex-direction: column;
     justify-content: start;
     row-gap: 1em;
 }
-header {
+.main-header {
     background-color: #4CAF50;
     /* -- 3 x 16px = 48px */
     height: 3em; 
@@ -34,23 +34,27 @@ nav {
     column-gap: 0.4em;
     
 }
+.main-section header {
+    display: flex;
+    justify-content: space-between;
+}
 .sidebar-left {
-    background-color: rgb(102, 188, 188);
+    background-color: #66bcbc;
     flex-grow: 1;
     
 }
 .main-sec-content{
-    background-color: rgb(243, 170, 101);
+    background-color: #f3aa65;
     flex-grow: 3;
     
 }
 .sidebar-right {
-    background-color: rgb(102, 188, 188);
+    background-color: #66bcbc;
     flex-grow: 1;
 
 }
 
 footer {
-    background-color: #ade507;
+    background-color: #aadb17;
     
 }
