@@ -10,6 +10,7 @@ main {
     height: 100vh;
     flex-direction: column;
     justify-content: start;
+    row-gap: 1em;
 }
 header {
     background-color: #4CAF50;
@@ -26,4 +27,30 @@ nav {
     justify-content: space-between;
     height: auto;
     align-items: center;
+}
+.main-section {
+    display: flex;
+    flex-grow: 1;
+    column-gap: 0.4em;
+    
+}
+.sidebar-left {
+    background-color: rgb(102, 188, 188);
+    flex-grow: 1;
+    
+}
+.main-sec-content{
+    background-color: rgb(243, 170, 101);
+    flex-grow: 3;
+    
+}
+.sidebar-right {
+    background-color: rgb(102, 188, 188);
+    flex-grow: 1;
+
+}
+
+footer {
+    background-color: #ade507;
+    
 }
