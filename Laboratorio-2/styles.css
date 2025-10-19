@@ -114,7 +114,6 @@ nav {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border: red 1px solid;
     flex-grow: 1;
 }
