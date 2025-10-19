@@ -115,6 +115,7 @@ nav {
     display: flex;
     flex-direction: column;
     border: red 1px solid;
+    justify-content: space-between;
     flex-grow: 1;
 }
 .list-content {
