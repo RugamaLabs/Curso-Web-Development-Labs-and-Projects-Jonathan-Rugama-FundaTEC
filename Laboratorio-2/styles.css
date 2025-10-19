@@ -44,7 +44,7 @@ nav {
 .sidebar-left {
     background-color: #66bcbc;
     flex-grow: 1;
-    max-width: 25%;
+    max-width: 30%;
     min-width: 280px;
     
 }
@@ -52,7 +52,7 @@ nav {
     background-color: #f3aa65;
     flex-grow: 3;
     min-width: 280px;
-    max-width: 50%;
+    max-width: 40%;
     display: flex;
     flex-direction: column;   
     justify-content: space-between; 
@@ -82,12 +82,53 @@ nav {
     flex-grow: 1;
 }
 .sidebar-right {
+    display: flex;
+    flex-direction: column;
     background-color: #66bcbc;
     flex-grow: 1;
-     max-width: 25%;
+     max-width: 30%;
     min-width: 280px;
 
 }
+.card-content {
+    padding: 0.5em;
+    background-color: #e0b2e0;
+    display: flex;
+    flex-direction: column;
+    border-bottom: #4d5959 0.5px solid;
+    font-size: 0.8em;
+    height: fit-content;
+    
+}
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5em;
+}
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    height: 80px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: red 1px solid;
+    flex-grow: 1;
+}
+.list-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: fit-content ;
+    
+}
+.list-content button {
+   margin: auto;
+}
+
 
 footer {
     background-color: #aadb17;
