@@ -1,0 +1,44 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0;
+    
+}
+main {
+    background-color: #7883e6;
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+
+    
+}
+header {
+    background-color: white;
+    position: inherit;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.black-section {
+    position: absolute;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    top: 0;
+    opacity: 0.5;
+   
+}
+.modal {
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    top: 25%;
+    left: 40%;
+   z-index: 3;
+   text-align: center;
+   border-radius: 10px;
+    
+}
