@@ -13,11 +13,9 @@ main {
 }
 header {
     background-color: white;
-    position: inherit;
     height: 60px;
     display: flex;
     align-items: center;
-    
 
 }
 .black-section {
@@ -33,9 +31,9 @@ header {
 .modal {
     position: absolute;
     background-color: white;
-    width: 300px;
-    height: 300px;
-    top: 25%;
+    width: 20%;
+    height: 45%;
+    top: 30%;
     left: 40%;
    z-index: 3;
    text-align: center;
