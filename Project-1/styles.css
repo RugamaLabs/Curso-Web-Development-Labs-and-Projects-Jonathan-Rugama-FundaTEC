@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #163B72;
+    color: white;
+    padding: 1em;
+    border-bottom: #CAFFD5 1em solid;
+    box-shadow: #163B72 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
+}
+.main-nav {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
