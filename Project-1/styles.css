@@ -5,12 +5,16 @@ body {
     display: flex;
     flex-direction: column;
 }
+.rockwell-font {
+    font-family: 'Rockwell', serif;
+}
 header {
     background-color: #163B72;
     color: white;
     padding: 1em;
     border-bottom: #CAFFD5 1em solid;
     box-shadow: #163B72 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
+    font-family: 'Rockwell', serif;
 }
 .main-nav {
     list-style-type: none;
@@ -22,4 +26,31 @@ header {
     text-decoration: none;
     list-style: none;
     
+}
+.main-section {
+    padding: 1em;
+}
+.getInTouch-section {
+    display: flex;
+    flex-direction: column;
+   
+}
+.getInTouch-title {
+    color: #163B72;
+   /* offset-x | offset-y | blur-radius | color */
+text-shadow: 0px 0.5px 2px #163B72; 
+}
+.getInTouch-paragraph {
+    border-left: #CAFFD5 1em solid;
+    padding-left: 0.5em;
+}
+.get-intouch-link {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: white;
+    color: #163B72;
+    border: 2px solid #163B72;
+    text-decoration: none;
+    border-radius: 4px;
+    align-self: center;
 }
