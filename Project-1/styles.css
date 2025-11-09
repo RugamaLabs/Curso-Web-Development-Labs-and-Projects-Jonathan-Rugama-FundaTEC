@@ -1,6 +1,8 @@
 :root {
     --primary-color: #163B72;
     --secondary-color: #CAFFD5;
+    --header-text-color: white;
+    --header-font-famly: 'Rockwell', serif;
 }
 
 body {
@@ -18,7 +20,8 @@ header {
     padding: 1em;
     border-bottom: var(--secondary-color) 1em solid;
     box-shadow: var(--primary-color) 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
-    font-family: 'Rockwell', serif;
+    font-family: var(--header-font-famly);
+    color: var(--header-text-color)
 }
 .main-nav {
     list-style-type: none;
