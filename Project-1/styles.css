@@ -4,6 +4,16 @@
     --header-text-color: white;
     --header-font-famly: 'Rockwell', serif;
 
+    --primary-triadic-color-1: #BEF50C;
+    --primary-triadic-color-2: #079D16;
+    --primary-triadic-color-3: #920F3B;
+    --primary-triadic-color-4: #C24230;
+
+    --complemantary-secondary-color-1: #995D8A;
+    --complemantary-secondary-color-2: #5D9969;
+    --complemantary-secondary-color-3: #5161A6;
+    --complemantary-secondary-color-4: #3696D9;
+
     --container-shadow: var(--primary-color) 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
 }
 
@@ -155,7 +165,6 @@ header {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: violet;
     justify-content: center;
    
 
@@ -169,7 +178,8 @@ header {
     padding: 0;
     margin-bottom: 1em;
     box-shadow: var(--container-shadow);
-    width: 250px;
+    min-width: 300px;
+    max-width: 33%;
 }
 .card-header {
     background-color: var(--primary-color);
@@ -185,4 +195,29 @@ header {
 .card-content-container {
     padding: 0.6em;
     
+}
+.card-tag {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
+    margin: 0.2em 0.2em 0 0;
+    font-size: 0.9em;
+}
+.card-tag:nth-child(1) {
+    background-color: var(--complemantary-secondary-color-1);
+    color: white
+}
+.card-tag:nth-child(2) {
+   background-color: var(--complemantary-secondary-color-2);
+    color: white;
+}
+.card-tag:nth-child(3) {
+    background-color: var(--complemantary-secondary-color-3);
+    color: white;
+}
+.card-tag:nth-child(4) {
+    background-color: var(--complemantary-secondary-color-4);
+    color: white;
 }
