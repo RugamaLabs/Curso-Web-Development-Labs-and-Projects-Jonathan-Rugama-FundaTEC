@@ -221,3 +221,15 @@ header {
     background-color: var(--complemantary-secondary-color-4);
     color: white;
 }
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1em;
+    margin-top: auto;
+    text-decoration: none;
+}
+.footer section a {
+    color: white;
+    text-decoration: none;
+}
