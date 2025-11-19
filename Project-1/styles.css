@@ -19,12 +19,7 @@
     --border-picture: var(--primary-color);
     --background-picture: white;
 
-    
-
-    --primary-triadic-color-1: #BEF50C;
-    --primary-triadic-color-2: #079D16;
-    --primary-triadic-color-3: #920F3B;
-    --primary-triadic-color-4: #C24230;
+    --fill-color-svg: #d4d426;
 
     --complemantary-secondary-color-1: #995D8A;
     --complemantary-secondary-color-2: #5D9969;
@@ -101,7 +96,7 @@ header {
 }
 .darkmode #theme-switch svg:last-child {
     display: block;
-    fill: #d4d426;
+    fill: var(--fill-color-svg)
 }
 .main-nav {
     list-style-type: none;
