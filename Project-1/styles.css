@@ -67,7 +67,11 @@ header {
     border-bottom: var(--secondary-color) 1em solid;
     box-shadow: var(--primary-color) 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
     font-family: var(--header-font-famly);
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
 #theme-switch {
    height: 50px;
@@ -104,7 +108,7 @@ header {
     
 }
 .main-section {
-    padding: 1em;
+    padding: 18em 1em 3em 1em;
 }
 
 
@@ -159,7 +163,7 @@ header {
     overflow: hidden;
     border: 3px solid var(--secondary-color);
     position: absolute;
-    top: -18%;
+    top: -44px;
     right: 2%;
     box-shadow: var(--container-shadow)
 }
@@ -309,8 +313,16 @@ header {
    }
    .main-nav {
        display: flex;
-       gap: 6em;
+       gap: 6em;   
+   }
+   .main-section {
        
-       
+       padding: 10em 12.5% 3em 12.5%;
+   }
+   .content-item {
+       max-width: 85%;
+   }
+   .card {
+       margin-right:2em;
    }
 }
