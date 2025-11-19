@@ -300,3 +300,17 @@ header {
     
 
 }
+@media (min-width: 1024px) {
+   header .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    
+   }
+   .main-nav {
+       display: flex;
+       gap: 6em;
+       
+       
+   }
+}
