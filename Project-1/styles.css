@@ -11,6 +11,11 @@
     --primary-btn-color: #163B72;
     --primary-btn-background-color: var(--background-color);
 
+    --primary-color-card: var(--primary-color);
+    --primary-color-card-container: white;
+    --secondary-color-card: white;
+    --border-bottom-card: none;
+
     
 
     --primary-triadic-color-1: #BEF50C;
@@ -37,7 +42,11 @@
     --primary-title-color: #E0E0E0;
     --primary-btn-color: #58E3C4;
     --primary-btn-background-color: var(--background-color);
-
+     
+    --primary-color-card: var(--primary-color-light);
+    --secondary-color-card: var(--secondary-text-color);
+    --border-bottom-card: var(--secondary-color) 0.3em solid;
+    --primary-color-card-container: var(--primary-color-light);
     --container-shadow: #000000 0px 4px 6px -1px, #0b0b0b 0px 2px 4px -1px;
 }
 
@@ -201,7 +210,7 @@ header {
 .card {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--secondary-color-card);
     border-radius: 0.5em;
     padding: 0;
     margin-bottom: 1em;
@@ -210,18 +219,21 @@ header {
     max-width: 33%;
 }
 .card-header {
-    background-color: var(--primary-color);
+    background-color: var(--primary-color-card);
     border-top-left-radius: 0.5em;
     border-top-right-radius: 0.5em;
+    border-bottom: var(--border-bottom-card);
 }
 .card-title {
-    color: white;
+    color: var(--secondary-color-card);
     text-align: center;
     padding: 0.5em;
     margin: 0;
 }
 .card-content-container {
     padding: 0.6em;
+    background-color: var(--primary-color-card-container);
+    color: var(--secondary-text-color);
     
 }
 .card-tag {
