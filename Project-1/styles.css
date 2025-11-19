@@ -69,6 +69,29 @@ header {
     font-family: var(--header-font-famly);
     color: var(--primary-text-color)
 }
+#theme-switch {
+   height: 50px;
+   width: 50px;
+   padding: 0;
+   border-radius: 50%;
+   background-color: var(--primary-color-light);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#theme-switch svg {
+    fill: var(--primary-text-color);
+    
+}
+#theme-switch svg:last-child {
+    display: none;
+}
+.darkmode #theme-switch svg:first-child {
+    display: none;
+}
+.darkmode #theme-switch svg:last-child {
+    display: block;
+}
 .main-nav {
     list-style-type: none;
     padding-left: 0;
@@ -269,8 +292,11 @@ header {
     padding: 1em;
     margin-top: auto;
     text-decoration: none;
+    border-top: var(--secondary-color) 0.6em solid;
 }
 .footer section a {
     color: white;
     text-decoration: none;
+    
+
 }
