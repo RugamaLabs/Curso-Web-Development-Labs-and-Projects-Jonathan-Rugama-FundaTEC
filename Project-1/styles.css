@@ -16,6 +16,9 @@
     --secondary-color-card: white;
     --border-bottom-card: none;
 
+    --border-picture: var(--primary-color);
+    --background-picture: white;
+
     
 
     --primary-triadic-color-1: #BEF50C;
@@ -42,6 +45,9 @@
     --primary-title-color: #E0E0E0;
     --primary-btn-color: #58E3C4;
     --primary-btn-background-color: var(--background-color);
+
+    --border-picture: var(--secondary-color);
+    --background-picture: var(--secondary-color);
      
     --primary-color-card: var(--primary-color-light);
     --secondary-color-card: var(--secondary-text-color);
@@ -95,6 +101,7 @@ header {
 }
 .darkmode #theme-switch svg:last-child {
     display: block;
+    fill: #d4d426;
 }
 .main-nav {
     list-style-type: none;
@@ -159,9 +166,9 @@ header {
     border-radius: 50%;
     width: 88px;
     height: 88px;
-    background-color: var(--secondary-color);
+    background-color: var(--background-picture);
     overflow: hidden;
-    border: 3px solid var(--secondary-color);
+    border: 3px solid var(--border-picture);
     position: absolute;
     top: -44px;
     right: 2%;
